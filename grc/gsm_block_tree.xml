@@ -40,6 +40,7 @@
       <block>gsm_bcch_ccch_sdcch4_demapper</block>
       <block>gsm_sdcch8_demapper</block>
       <block>gsm_tch_f_chans_demapper</block>
+      <block>gsm_tch_h_chans_demapper</block>
     </cat>
     <cat>
       <name>Decryption</name>
@@ -49,6 +50,7 @@
       <name>Decoding</name>
       <block>gsm_control_channels_decoder</block>
       <block>gsm_tch_f_decoder</block>
+      <block>gsm_tch_h_decoder</block>
     </cat>
     <cat>
       <name>Flow control</name>
